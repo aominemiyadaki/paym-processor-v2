@@ -1,0 +1,34 @@
+# Build & Dependency Artifacts
+build/
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+.gradle/
+**/android/.gradle/
+**/ios/Pods/
+**/ios/.symlinks/
+node_modules/
+dist/
+.next/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+target/
+DerivedData/
+
+# Secrets & Tokens (strictly protect tokens!)
+.env
+.env.*
+*.token
+*.key
+*.pem
+*.p12
+*.jks
+*.keystore
+id_rsa*
+id_ed25519*
+
+# OS
+.DS_Store
